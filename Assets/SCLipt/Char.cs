@@ -12,8 +12,5 @@ public class Char : MonoBehaviour
         Vector2 worldPos = myTransform.position;
         float x = worldPos.x;
         float y = worldPos.y;
-        Debug.Log(x);
-        Debug.Log(y);
-
     }
 }

@@ -4,52 +4,52 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class Event : MonoBehaviour
-{
+{/*
     public GameObject face;
     public GameObject windows;
 
     public GameObject windows_object = null;
 
     
-    public void normal()  //‰æ‘œ‚ÆƒƒbƒZ[ƒW‚Ì•\Ž¦
+    public void normal()  //ï¿½æ‘œï¿½Æƒï¿½ï¿½bï¿½Zï¿½[ï¿½Wï¿½Ì•\ï¿½ï¿½
     {
         face.SetActive(true);
         windows.SetActive(true);
     }
 
-    public void  Update ()@//ƒeƒLƒXƒg‚Ì•\Ž¦@ƒCƒxƒ“ƒg‚²‚Æ‚Éƒf[ƒ^‚ð‚±‚±‚É‘—‚é
+    public void  Update ()ï¿½@//ï¿½eï¿½Lï¿½Xï¿½gï¿½Ì•\ï¿½ï¿½ï¿½@ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Æ‚Éƒfï¿½[ï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½É‘ï¿½ï¿½ï¿½
     {
         Text window_text = windows_object.GetComponent<Text>();
-        window_text.text = "”L‚Ð‚ë‚µ‚ð“|‚¹";
+        window_text.text = "ï¿½Lï¿½Ð‚ë‚µï¿½ï¿½|ï¿½ï¿½";
     }
 
-    public void Getcd() //ƒCƒxƒ“ƒg@c,d ‚ðŽQÆ‚µ‚Ä‰º‚ÌƒCƒxƒ“ƒg‚ÉˆÚs
+    public void Getcd() //ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½@c,d ï¿½ï¿½ï¿½Qï¿½Æ‚ï¿½ï¿½Ä‰ï¿½ï¿½ÌƒCï¿½xï¿½ï¿½ï¿½gï¿½ÉˆÚs
     {
         
     }
-    public void root () //’ÊíƒCƒxƒ“ƒgiƒ}ƒX‚ð“¥‚ñ‚¾Û‚É‹N‚±‚éj
+    public void root () //ï¿½Êï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½iï¿½}ï¿½Xï¿½ð“¥‚ñ‚¾Û‚É‹Nï¿½ï¿½ï¿½ï¿½j
     {
-                                                    //Šm—¦‚Å@í“¬@ƒAƒCƒeƒ€ƒQƒbƒg ‚ ‚Æ‘¼‰½‚©@‚ð‹N‚±‚µ‚Ü‚·
+                                                    //ï¿½mï¿½ï¿½ï¿½Å@ï¿½í“¬ï¿½@ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½Qï¿½bï¿½g ï¿½ï¿½ï¿½Æ‘ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
     }
-    public void poot () //ƒ‰ƒ“ƒ_ƒ€ƒCƒxƒ“ƒg
+    public void poot () //ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Cï¿½xï¿½ï¿½ï¿½g
     {
-                                                    //’ÊíƒCƒxƒ“ƒg‚Å‚Í‚È‚¢ƒ‰ƒ“ƒ_ƒ€ƒCƒxƒ“ƒg‚ð“ü‚ê‚Ü‚·
+                                                    //ï¿½Êï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½Å‚Í‚È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½ï¿½ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
     }
-    public void loot () //ƒ}ƒXŒÅ’èƒCƒxƒ“ƒg
+    public void loot () //ï¿½}ï¿½Xï¿½Å’ï¿½Cï¿½xï¿½ï¿½ï¿½g
     {
-                                                    //“Åƒ}ƒX@•ó” ƒ}ƒX@ŠX@ƒ{ƒXŒÅ’èƒCƒxƒ“ƒg‚ð‹N‚±‚µ‚Ü‚·
-    }
-
-    public void voot () //ƒ~ƒbƒVƒ‡ƒ“ƒCƒxƒ“ƒg@@@@ƒAƒCƒeƒ€‚ðŽ‚Á‚Ä‚¢‚é‚Æ”­¶
-    {
-
+                                                    //ï¿½Åƒ}ï¿½Xï¿½@ï¿½ó” ƒ}ï¿½Xï¿½@ï¿½Xï¿½@ï¿½{ï¿½Xï¿½Å’ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½ï¿½ï¿½Nï¿½ï¿½ï¿½ï¿½ï¿½Ü‚ï¿½
     }
 
-    //‚·‚×‚ÄI—¹‚µ‚½Œã]
+    public void voot () //ï¿½~ï¿½bï¿½Vï¿½ï¿½ï¿½ï¿½ï¿½Cï¿½xï¿½ï¿½ï¿½gï¿½@ï¿½@ï¿½@ï¿½@ï¿½Aï¿½Cï¿½eï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½Æ”ï¿½ï¿½ï¿½
+    {
+
+    }
+
+    //ï¿½ï¿½ï¿½×‚ÄIï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]
     public void normalemd()
     {
         face.SetActive(false);
         windows.SetActive(false);
     }
-
+*/
 }

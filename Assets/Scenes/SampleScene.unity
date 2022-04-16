@@ -427,7 +427,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &235658078
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1083,9 +1083,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 675ddac9cf79fa34cbdc451b7a1d26c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  face: {fileID: 106932873}
-  windows: {fileID: 915770505}
-  windows_object: {fileID: 630711460}
 --- !u!1 &675274162
 GameObject:
   m_ObjectHideFlags: 0
@@ -1982,7 +1979,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1461988962
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2148,6 +2145,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1909534887}
   - component: {fileID: 1909534886}
+  - component: {fileID: 1909534888}
   m_Layer: 0
   m_Name: GameCountollor
   m_TagString: Untagged
@@ -2192,6 +2190,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1909534888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909534885}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8d47e6a461aec643b1b6701df59da28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Card1: {fileID: 1293835341}
+  Card2: {fileID: 95895681}
+  Card3: {fileID: 1729944374}
+  Card4: {fileID: 675274162}
+  up: {fileID: 2127352590}
+  down: {fileID: 500605917}
+  right: {fileID: 239144101}
+  left: {fileID: 1349122596}
 --- !u!1 &1934007354
 GameObject:
   m_ObjectHideFlags: 0
